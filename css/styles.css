@@ -635,11 +635,12 @@ overflow: hidden;
 .modal-close:focus,
 .modal-close:hover{
     background-color: #404bbf;
-   
+     border: none;
+     fill: #ffffff;
 }
 
 .modal-close-icon:hover,
-.modsl-close-icon:focus{
+.modal-close-icon:focus{
   fill: #ffffff;
 }
 
@@ -703,6 +704,14 @@ margin-bottom: 4px;
   margin-bottom: 8px;
 }
 
+.modal-field-comment{
+  margin-bottom: 16px;
+}
+
+.modal-field-privacy{
+  margin-bottom: 24px; 
+}
+
 .input-wrapper{
   position: relative;
   margin-bottom: 24px;
@@ -763,9 +772,9 @@ color: #4d5ae5;
 }
 
 .modal-check-box{
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  display: inline-flex;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
